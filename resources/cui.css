@@ -1,0 +1,9 @@
+@-moz-document url("chrome://browser/content/browser.xul") {
+	#cui_miguelsaldivar {
+		list-style-image: url('chrome://miguelsaldivar/content/resources/images/icon16.png');
+	}
+	#cui_miguelsaldivar[cui-areatype="menu-panel"],
+	toolbarpaletteitem[place="palette"] > #cui_miguelsaldivar {
+		list-style-image: url('chrome://miguelsaldivar/content/resources/images/icon32.png');
+	}
+}
